@@ -5,7 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 
 const HatsPage =()=>(
   <div>
-    <h1>I Hats PAge</h1>
+    <h1>I Hats Page</h1>
   </div>
 )
 
@@ -13,7 +13,7 @@ function App() {
   return (
     <Switch>
       <Route exact path="/" component={HomePage}/>
-      <Route  path="/hats" component={HatsPage}/>
+      <Route  path="shop/hats" component={HatsPage}/>
     </Switch>
   );
 }
